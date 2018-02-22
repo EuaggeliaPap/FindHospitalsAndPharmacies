@@ -60,7 +60,6 @@ import static com.appcook.user.findhospitalsandpharmacies.R.id.light;
 
 public class MainActivity extends AppCompatActivity implements Serializable,GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener{
 
-
     private Button bgetLocation;
     private Button bsearch;
     private Button binfo;
@@ -69,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements Serializable,Goog
     private TextView tvCurrentLocation;
     private GoogleApiClient googleApiClient;
     private String url;
-    String selectedType;
+    private String selectedType;
     int realRadius;
     public static CircularProgressView progressView;
     public static Dialog overlayDialog;
